@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(24, 23, 27);
+    font-family: sans-serif;
+    /* color: #fff; */
+}
+
+.load{
+    color: #fff;
+}
+
+.container {
+    margin: 150px auto;
+    width: 1000px;
+}
+
+table {
+    background-color: rgb(216, 209, 209);
+    text-align: center;
+    width: 100%;
+    /* quitar bordes */
+    /* border-collapse: collapse; */
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 20px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+thead {
+    background: #0b0364;
+    color: #ccc;
+    border-bottom: 5px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+tr:hover td{
+    background-color: #ccc;
+}
